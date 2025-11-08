@@ -8,7 +8,7 @@ export default function Btn() {
       {isOpen && (
         <>
           <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/yzSant"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-700 text-white p-3 rounded-full shadow-lg hover:bg-red-800 transition"
@@ -18,7 +18,7 @@ export default function Btn() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/seu-perfil"
+            href="https://linkedin.com/in/lucassantanadev"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-700 text-white p-3 rounded-full shadow-lg hover:bg-red-800 transition"
