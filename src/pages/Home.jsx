@@ -2,7 +2,7 @@ import perfil from "../assets/perfil.png";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const githubUser = useState("yzSant"); 
+  const [githubUser, setGithubUser] = useState("yzSant"); 
 
   return (
     <section className="flex flex-col md:flex-row items-start gap-10 w-full h-full">
