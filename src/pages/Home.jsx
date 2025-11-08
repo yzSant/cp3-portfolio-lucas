@@ -2,11 +2,10 @@ import perfil from "../assets/perfil.png";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [githubUser, setGithubUser] = useState("yzSant"); 
+  const githubUser = useState("yzSant"); 
 
   return (
     <section className="flex flex-col md:flex-row items-start gap-10 w-full h-full">
-      {/* Perfil e Bio */}
       <div className="flex flex-col items-center md:items-start w-full md:w-1/3 bg-[#2A2E33] rounded-2xl p-6 shadow-lg">
         <img
           src={perfil}
